@@ -125,4 +125,4 @@ def read_labels(path_file):
     # Read list of labels from text file
     with open(path_file) as f:
         labels = [line.strip() for line in f.readlines()]         
-    return labels
+    return labels
