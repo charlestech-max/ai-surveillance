@@ -234,4 +234,4 @@ def display_image(image, fig_name):
         display_image(image_with_boxes, "Classes detected")
 
         cv.imwrite(f"{path_save}_objDet_fr{count_frames}.png", 
-                   image_with_boxes) """        
+                   image_with_boxes) """        
