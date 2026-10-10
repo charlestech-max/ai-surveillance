@@ -14,4 +14,4 @@ def load_config(config_file):
         param = yaml.load(stream, yaml.FullLoader)
         print(yaml.dump(param))
     return param
-
+
